@@ -12,7 +12,7 @@ router.get('/express/:isExpress(\\d+)', async (req, res, next) => {
             return results;
         } else if (express == 0) {
             const sql = `select name from stations where isExpress = 0`;
-            const results = await runQuery(sql, [passengers]);
+            const results = await runQuery(sql, [name]);
             return results;
         } else {
             throw new Error('BAD_REQUEST');
