@@ -1,0 +1,2 @@
+inner join은 cartisian product를 진행하고
+outer join은 필요한 attribute를 반드시 남기고 없는 부분은 null 처리를 하고 진행한다.

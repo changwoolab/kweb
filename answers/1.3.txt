@@ -1,0 +1,4 @@
+collision이 발생할 수 있다.
+해결방법
+1. 해당 table block 옆 block에 데이터를 삽입 
+2. linked list로 추가적인 데이터 보관 장소를 만들어 삽입

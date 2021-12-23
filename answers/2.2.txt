@@ -1,0 +1,7 @@
+GET /: 홈페이지
+GET /info/users: 사용자 정보
+GET /info/vaccines: 백신 정보
+GET /stat/users: 해당 유저의 접종 이력 및 접종 예외 여부
+
+POST /changeStat/users: 접종 이력 및 접종 예외 여부 업데이트
+POST /register : 새로운 사용자/백신/접종이력 등록
